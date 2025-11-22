@@ -15,13 +15,15 @@ export const CTAButton = ({ href, children, size = "lg" }: CTAButtonProps) => {
   };
 
   return (
-    <a href={href} target="_blank" rel="noopener noreferrer" className="inline-block">
-      <Button
-        className={`bg-accent hover:bg-accent/90 text-accent-foreground font-bold rounded-xl glow-green hover:scale-105 transition-all duration-300 shadow-lg group ${sizeClasses[size]}`}
-      >
-        {children}
-        <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-      </Button>
-    </a>
+    <div className="flex justify-center">
+      <a href={href} target="_blank" rel="noopener noreferrer" className="inline-block">
+        <Button
+          className={`bg-accent hover:bg-accent/90 text-accent-foreground font-bold rounded-xl glow-green hover:scale-105 transition-all duration-300 shadow-lg group ${sizeClasses[size]}`}
+        >
+          {children}
+          <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+        </Button>
+      </a>
+    </div>
   );
 };

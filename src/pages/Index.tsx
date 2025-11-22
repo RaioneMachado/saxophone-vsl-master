@@ -29,7 +29,7 @@ const Index = () => {
       <CountdownTimer />
 
       {/* Main Content */}
-      <div className="relative z-10 pt-32 pb-20">
+      <div className="relative z-10 pt-24 md:pt-32 pb-20">
         <div className="container mx-auto px-4">
           {/* Hero Section */}
           <section className="text-center mb-20 animate-fade-in">
@@ -50,19 +50,22 @@ const Index = () => {
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
               Vídeo partituras com produções próprias e de qualidade premium!
             </p>
-
-            <CTAButton href="#depoimentos" size="xl">
-              Ver Depoimentos dos Clientes
-            </CTAButton>
           </section>
 
           {/* Main Video Section */}
-          <section className="mb-20">
+          <section className="mb-12">
             <VideoSection
-              videoId="NNzmL2PNrdk"
+              videoId="qMOaQcg3RRU"
               title="Assista ao vídeo e descubra como revolucionar sua forma de tocar!"
               description="Veja como nossas vídeo partituras premium vão transformar suas apresentações musicais."
             />
+          </section>
+
+          {/* CTA to Testimonials */}
+          <section className="text-center mb-20">
+            <CTAButton href="#depoimentos" size="xl">
+              Ver Depoimentos dos Clientes
+            </CTAButton>
           </section>
 
           {/* Social Proof */}
@@ -148,11 +151,9 @@ const Index = () => {
               é o que há de melhor em praticidade e facilidade!
             </p>
             
-            <div className="flex justify-center">
-              <CTAButton href="#preco" size="lg">
-                Quero Ter Acesso Agora!
-              </CTAButton>
-            </div>
+            <CTAButton href="#preco" size="lg">
+              Quero Ter Acesso Agora!
+            </CTAButton>
           </section>
 
           {/* Video Examples Section */}
@@ -163,27 +164,21 @@ const Index = () => {
 
             <div className="space-y-16">
               <VideoSection
-                videoId="6DMKYUXvvoo"
+                videoId="ho6kZjBszIU"
                 title="Menina Veneno - Ritchie"
                 description="Que tal começar com o clássico Menina Veneno? O solo de sax icônico dessa música vai fazer você reviver um dos maiores hits da música brasileira. Temos também, Uma Brasileira, dos Paralamas do Sucesso, traz aquela vibe contagiante que é impossível não amar. E esses são só alguns dos vários temas nacionais que você encontrará: pop, rock, MPB, bossa e muito mais!"
               />
 
               <VideoSection
-                videoId="jYydZpDrdvo"
+                videoId="_eBWSJa0Mog"
                 title="Vivir Sin Aire - Maná"
                 description="Internacionais? Claro que sim! Se você é fã de hits latinos, vai adorar Vivir Sin Aire, um sucesso absoluto da banda Maná – perfeito para tocar e emocionar."
               />
 
               <VideoSection
-                videoId="kgKGWrUCIzA"
+                videoId="uYG7VA-kxMI"
                 title="Your Love - The Outfield"
                 description="E para os apaixonados por rock, confira o clássico Your Love! Preste atenção na qualidade impecável dos playbacks e das partituras que compõem nossas vídeo partituras, tudo em qualidade premium, para elevar sua performance!"
-              />
-
-              <VideoSection
-                videoId="JaO2yh1L0bs"
-                title="Depois do Prazer - SPC"
-                description="Samba e pagode? É claro que não poderia faltar! Depois do Prazer, do SPC, é apenas um exemplo da nossa seleção de ritmos brasileiros que garantem sucesso em qualquer apresentação."
               />
             </div>
 
@@ -215,19 +210,26 @@ const Index = () => {
           </section>
 
           {/* Pricing Section */}
-          <section id="preco" className="mb-20 scroll-mt-32">
-            <div className="text-center mb-8">
-              <p className="text-xl md:text-2xl text-accent font-bold mb-2">
-                ⚡ SOMENTE HOJE VOCÊ TERÁ ACESSO AO DESCONTO! ⚡
-              </p>
+          <section id="preco" className="mb-20 scroll-mt-24 md:scroll-mt-32">
+            <div className="text-center mb-8 animate-pulse">
+              <div className="inline-block bg-gradient-to-r from-accent to-accent/80 rounded-2xl p-4 mb-4 glow-green shadow-2xl">
+                <p className="text-2xl md:text-3xl text-accent-foreground font-black mb-0 tracking-tight">
+                  ⚡ SOMENTE HOJE VOCÊ TERÁ ACESSO AO DESCONTO! ⚡
+                </p>
+              </div>
             </div>
 
-            <div className="max-w-2xl mx-auto bg-gradient-to-br from-card/60 to-primary/5 backdrop-blur-sm border-2 border-primary/30 rounded-3xl p-8 md:p-12 glow-blue">
+            <div className="max-w-2xl mx-auto bg-gradient-to-br from-accent/20 via-primary/20 to-accent/10 backdrop-blur-sm border-4 border-accent/50 rounded-3xl p-8 md:p-12 glow-green shadow-2xl animate-scale-in">
               <div className="text-center mb-8">
                 <p className="text-muted-foreground text-lg mb-2 line-through">de R$ 169</p>
-                <p className="text-6xl md:text-7xl font-bold text-primary glow-text-blue mb-4 font-display">
-                  R$ 87
-                </p>
+                <div className="relative inline-block">
+                  <p className="text-7xl md:text-8xl font-black text-accent glow-text-green mb-4 font-display animate-pulse">
+                    R$ 67
+                  </p>
+                  <div className="absolute -top-4 -right-4 bg-primary text-primary-foreground text-sm font-bold px-3 py-1 rounded-full rotate-12 animate-bounce">
+                    60% OFF
+                  </div>
+                </div>
                 <p className="text-sm text-muted-foreground uppercase tracking-wider">
                   Pagamento único • Acesso vitalício
                 </p>
@@ -256,14 +258,12 @@ const Index = () => {
                 </div>
               </div>
 
-              <div className="text-center">
-                <CTAButton href="https://pay.hotmart.com/B98304334X?checkoutMode=10" size="xl">
-                  Quero Aproveitar Esta Oferta!
-                </CTAButton>
-                <p className="text-sm text-muted-foreground mt-4">
-                  ✅ ACESSO IMEDIATO APÓS PAGAMENTO CONFIRMADO!
-                </p>
-              </div>
+              <CTAButton href="https://pay.cakto.com.br/pe7or9r" size="xl">
+                Quero Aproveitar Esta Oferta!
+              </CTAButton>
+              <p className="text-sm text-center text-muted-foreground mt-4">
+                ✅ ACESSO IMEDIATO APÓS PAGAMENTO CONFIRMADO!
+              </p>
             </div>
           </section>
 
@@ -304,21 +304,6 @@ const Index = () => {
             </div>
           </section>
 
-          {/* Final CTA Section */}
-          <section className="text-center mb-20">
-            <div className="bg-gradient-to-br from-accent/10 to-primary/10 backdrop-blur-sm border border-accent/30 rounded-3xl p-8 md:p-12 max-w-4xl mx-auto">
-              <Users className="w-16 h-16 text-accent mx-auto mb-6" />
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 font-display">
-                Ainda tem dúvidas?
-              </h2>
-              <p className="text-lg text-muted-foreground mb-8">
-                Nosso time de atendimento está pronto para te ajudar pelo WhatsApp!
-              </p>
-              <CTAButton href="https://wa.me/5511911792449?text=Ol%C3%A1%2C%20quero%20falar%20com%20atendente." size="lg">
-                Falar com Atendente no WhatsApp
-              </CTAButton>
-            </div>
-          </section>
         </div>
       </div>
 

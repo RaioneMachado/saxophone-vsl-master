@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Clock } from "lucide-react";
 
 interface TimeLeft {
   hours: number;
@@ -31,32 +32,34 @@ export const CountdownTimer = () => {
     return () => clearInterval(timer);
   }, []);
 
-  const TimeBlock = ({ value, label }: { value: number; label: string }) => (
+  const TimeBox = ({ value, label }: { value: number; label: string }) => (
     <div className="flex flex-col items-center">
-      <div className="bg-secondary/50 backdrop-blur-sm border border-primary/30 rounded-lg px-4 py-3 min-w-[80px] glow-blue">
-        <span className="text-4xl md:text-5xl font-bold text-primary glow-text-blue font-display">
+      <div className="bg-accent/80 backdrop-blur-sm border border-accent/40 rounded-lg px-3 py-2 md:px-4 md:py-3 min-w-[70px] md:min-w-[80px] glow-green">
+        <span className="text-3xl md:text-4xl font-bold text-accent-foreground font-display">
           {String(value).padStart(2, "0")}
         </span>
       </div>
-      <span className="text-xs md:text-sm text-muted-foreground mt-2 uppercase tracking-wider">
+      <span className="text-xs text-accent-foreground/90 mt-1 uppercase tracking-wider font-semibold">
         {label}
       </span>
     </div>
   );
 
   return (
-    <div className="fixed top-0 left-0 right-0 bg-background/95 backdrop-blur-md border-b border-primary/20 z-50 py-4 shadow-lg">
-      <div className="container mx-auto px-4">
-        <div className="flex flex-col items-center gap-3">
-          <p className="text-sm md:text-base text-center text-foreground/80">
-            ⚡ <span className="font-semibold text-primary">OFERTA EXCLUSIVA</span> termina em:
-          </p>
-          <div className="flex gap-3 md:gap-6">
-            <TimeBlock value={timeLeft.hours} label="Horas" />
-            <div className="flex items-center text-3xl md:text-4xl text-primary font-bold">:</div>
-            <TimeBlock value={timeLeft.minutes} label="Minutos" />
-            <div className="flex items-center text-3xl md:text-4xl text-primary font-bold">:</div>
-            <TimeBlock value={timeLeft.seconds} label="Segundos" />
+    <div className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-accent/90 to-primary/90 backdrop-blur-md border-b border-accent/30 shadow-lg glow-green">
+      <div className="container mx-auto px-4 py-3 md:py-4">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-2 md:gap-3">
+          <div className="flex items-center gap-2">
+            <Clock className="w-4 h-4 md:w-5 md:h-5 text-accent-foreground animate-pulse" />
+            <span className="text-xs md:text-base font-semibold text-accent-foreground">
+              ⚠️ OFERTA EXPIRA EM:
+            </span>
+          </div>
+          
+          <div className="flex gap-2 md:gap-4">
+            <TimeBox value={timeLeft.hours} label="Horas" />
+            <TimeBox value={timeLeft.minutes} label="Minutos" />
+            <TimeBox value={timeLeft.seconds} label="Segundos" />
           </div>
         </div>
       </div>
