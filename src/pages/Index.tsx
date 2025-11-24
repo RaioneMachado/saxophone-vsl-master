@@ -252,9 +252,10 @@ const Index = () => {
                 </div>
               </div>
 
-              <CTAButton href="https://pay.cakto.com.br/pe7or9r" size="xl">
-                Quero Aproveitar Esta Oferta!
-              </CTAButton>
+            <CTAButton href="https://pay.kirvano.com/47ff8107-0a82-424c-b105-808cfe984da3" size="xl">
+  Quero Aproveitar Esta Oferta!
+</CTAButton>
+
               <p className="text-sm text-center text-muted-foreground mt-4">
                 ✅ ACESSO IMEDIATO APÓS PAGAMENTO CONFIRMADO!
               </p>
