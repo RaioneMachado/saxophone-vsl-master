@@ -44,7 +44,7 @@ const Index = () => {
             
             
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-              <span className="font-bold text-foreground">ÚLTIMO DIA DE PROMOÇÃO! APROVEITE...</span> em{" "}
+              <span className="font-bold text-foreground">ÚLTIMO DIA DE PROMOÇÃO! APROVEITE...</span> {" "}
               <span className="font-bold text-foreground">qualidade premium!</span>
             </p>
           </section>
