@@ -25,23 +25,23 @@ const Index = () => {
       </div>
 
       {/* Main Content */}
-      <div className="relative z-10 pt-20 pb-20">
+      <div className="relative z-10 pt-16 pb-20">
         <div className="container mx-auto px-4">
           {/* Hero Section */}
-          <section className="text-center mb-12 animate-fade-in">
-            <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/30 rounded-full px-4 py-2 mb-6">
+          <section className="text-center mb-8 animate-fade-in">
+            <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/30 rounded-full px-4 py-2 mb-4">
               <div className="w-2 h-2 bg-accent rounded-full animate-pulse" />
               <span className="text-sm text-foreground font-semibold">
                 🟢 97 músicos estão sendo redirecionados!
               </span>
             </div>
             
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 leading-tight font-display">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-4 leading-tight font-display">
               O <span className="text-primary glow-text-blue">maior material</span> de{" "}
               <span className="text-primary glow-text-blue">VÍDEO PARTITURAS</span> para saxofone!
             </h1>
             
-            <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl text-muted-foreground mb-6 max-w-3xl mx-auto">
               <span className="font-bold text-foreground">ÚLTIMO DIA DE PROMOÇÃO! APROVEITE...</span> {" "}
               <span className="font-bold text-foreground">qualidade premium!</span>
             </p>
