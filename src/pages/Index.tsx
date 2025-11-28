@@ -118,26 +118,35 @@ const Index = () => {
             </h2>
 
             <div className="space-y-16">
-              <VideoSection
-                videoId="ho6kZjBszIU"
-                title="Menina Veneno - Ritchie"
-                titleClassName="text-primary glow-text-blue"
-                description="Clássico solo de sax! Temos também pop, rock, MPB, bossa e muito mais!"
-              />
+              <div className="text-center">
+                <h3 className="text-2xl md:text-3xl font-bold text-primary glow-text-blue mb-4 font-display">
+                  Menina Veneno - Ritchie
+                </h3>
+                <VideoSection
+                  videoId="ho6kZjBszIU"
+                  description="Clássico solo de sax! Temos também pop, rock, MPB, bossa e muito mais!"
+                />
+              </div>
 
-              <VideoSection
-                videoId="_eBWSJa0Mog"
-                title="Vivir Sin Aire - Maná"
-                titleClassName="text-primary glow-text-blue"
-                description="Hits latinos! Sucesso da banda Maná, perfeito para emocionar."
-              />
+              <div className="text-center">
+                <h3 className="text-2xl md:text-3xl font-bold text-primary glow-text-blue mb-4 font-display">
+                  Vivir Sin Aire - Maná
+                </h3>
+                <VideoSection
+                  videoId="_eBWSJa0Mog"
+                  description="Hits latinos! Sucesso da banda Maná, perfeito para emocionar."
+                />
+              </div>
 
-              <VideoSection
-                videoId="uYG7VA-kxMI"
-                title="Your Love - The Outfield"
-                titleClassName="text-primary glow-text-blue"
-                description="Rock clássico! Note a qualidade premium dos playbacks e partituras."
-              />
+              <div className="text-center">
+                <h3 className="text-2xl md:text-3xl font-bold text-primary glow-text-blue mb-4 font-display">
+                  Your Love - The Outfield
+                </h3>
+                <VideoSection
+                  videoId="uYG7VA-kxMI"
+                  description="Rock clássico! Note a qualidade premium dos playbacks e partituras."
+                />
+              </div>
             </div>
 
             <div className="text-center mt-8">
