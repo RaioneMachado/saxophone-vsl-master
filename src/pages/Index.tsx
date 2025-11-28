@@ -1,4 +1,3 @@
-
 import { VideoSection } from "@/components/VideoSection";
 import { FeatureCard } from "@/components/FeatureCard";
 import { CTAButton } from "@/components/CTAButton";
@@ -29,7 +28,7 @@ const Index = () => {
       <div className="relative z-10 pt-20 pb-20">
         <div className="container mx-auto px-4">
           {/* Hero Section */}
-          <section className="text-center mb-20 animate-fade-in">
+          <section className="text-center mb-16 animate-fade-in">
             <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/30 rounded-full px-4 py-2 mb-6">
               <div className="w-2 h-2 bg-accent rounded-full animate-pulse" />
               <span className="text-sm text-foreground font-semibold">
@@ -42,31 +41,31 @@ const Index = () => {
               <span className="text-primary glow-text-blue">VÍDEO PARTITURAS</span> para saxofone!
             </h1>
             
-            
-            <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
               <span className="font-bold text-foreground">ÚLTIMO DIA DE PROMOÇÃO! APROVEITE...</span> {" "}
               <span className="font-bold text-foreground">qualidade premium!</span>
             </p>
           </section>
 
           {/* Main Video Section */}
-          <section className="mb-12">
-            <VideoSection
-              videoId="qMOaQcg3RRU"
-              title="Veja como funciona!"
-              description="Descubra a praticidade das vídeo partituras premium."
-            />
+          <section className="mb-16 flex justify-center">
+            <div className="w-full max-w-4xl">
+              <VideoSection
+                videoId="qMOaQcg3RRU"
+                title="Veja como funciona!"
+                description="Descubra a praticidade das vídeo partituras premium."
+              />
+            </div>
           </section>
 
           {/* CTA to Testimonials */}
-<section className="text-center mb-20">
-  <a href="#depoimentos">
-    <CTAButton size="xl">
-      Ver Depoimentos dos Clientes
-    </CTAButton>
-  </a>
-</section>
-
+          <section className="text-center mb-20">
+            <a href="#depoimentos">
+              <CTAButton size="xl">
+                Ver Depoimentos dos Clientes
+              </CTAButton>
+            </a>
+          </section>
 
           {/* Social Proof */}
           <section id="depoimentos" className="mb-20 scroll-mt-32">
@@ -102,7 +101,7 @@ const Index = () => {
               <span className="font-bold">não encontra no YouTube</span>
             </h2>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+            <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6 max-w-4xl mx-auto">
               <FeatureCard
                 icon={Music}
                 title="Mais de 200 temas"
@@ -119,40 +118,29 @@ const Index = () => {
                 description="Vídeos em mp4 de alta qualidade. Use sem internet!"
               />
               <FeatureCard
-                icon={Clock}
-                title="Acesso Imediato"
-                description="Acesso instantâneo após confirmação do pagamento."
-              />
-              <FeatureCard
                 icon={Shield}
                 title="7 Dias de Garantia"
                 description="Não gostou? Devolvemos seu dinheiro!"
-              />
-              <FeatureCard
-                icon={Star}
-                title="Qualidade Premium"
-                description="Playbacks profissionais e partituras impecáveis."
               />
             </div>
           </section>
 
           {/* Benefits Section */}
-<section className="mb-20 bg-card/30 backdrop-blur-sm border border-primary/20 rounded-3xl p-8 md:p-12 glow-blue">
-  <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-8 font-display">
-    Chega de <span className="text-primary glow-text-blue">partituras impressas</span> e playbacks separados!
-  </h2>
+          <section className="mb-20 bg-card/30 backdrop-blur-sm border border-primary/20 rounded-3xl p-8 md:p-12 glow-blue">
+            <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-8 font-display">
+              Chega de <span className="text-primary glow-text-blue">partituras impressas</span> e playbacks separados!
+            </h2>
 
-  <p className="text-center text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-    <span className="font-bold text-foreground">Todo material na palma da mão</span> - é só dar play e sair tocando!
-  </p>
+            <p className="text-center text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
+              <span className="font-bold text-foreground">Todo material na palma da mão</span> - é só dar play e sair tocando!
+            </p>
 
-  <a href="#preco">
-    <CTAButton size="lg">
-      Quero Ter Acesso Agora!
-    </CTAButton>
-  </a>
-</section>
-
+            <a href="#preco">
+              <CTAButton size="lg">
+                Quero Ter Acesso Agora!
+              </CTAButton>
+            </a>
+          </section>
 
           {/* Video Examples Section */}
           <section className="mb-20">
@@ -253,9 +241,9 @@ const Index = () => {
                 </div>
               </div>
 
-            <CTAButton href="https://pay.kirvano.com/47ff8107-0a82-424c-b105-808cfe984da3" size="xl">
-  Quero Aproveitar Esta Oferta!
-</CTAButton>
+              <CTAButton href="https://pay.kirvano.com/47ff8107-0a82-424c-b105-808cfe984da3" size="xl">
+                Quero Aproveitar Esta Oferta!
+              </CTAButton>
 
               <p className="text-sm text-center text-muted-foreground mt-4">
                 ✅ ACESSO IMEDIATO APÓS PAGAMENTO CONFIRMADO!
