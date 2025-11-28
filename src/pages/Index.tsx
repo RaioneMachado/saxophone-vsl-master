@@ -59,40 +59,13 @@ const Index = () => {
             </div>
           </section>
 
-          {/* CTA to Testimonials */}
+          {/* CTA to Pricing */}
           <section className="text-center mb-20">
-            <a href="#depoimentos">
+            <a href="#preco">
               <CTAButton size="xl">
-                Ver Depoimentos dos Clientes
+                Garantir Agora
               </CTAButton>
             </a>
-          </section>
-
-          {/* Social Proof */}
-          <section id="depoimentos" className="mb-20 scroll-mt-32">
-            <h2 className="text-3xl md:text-5xl font-bold text-center text-foreground mb-4 font-display">
-              O que nossos <span className="text-primary glow-text-blue">clientes dizem</span>
-            </h2>
-            <p className="text-center text-muted-foreground mb-12 text-lg">
-              <span className="font-bold text-foreground">Centenas de saxofonistas</span> já transformaram suas apresentações
-            </p>
-            
-            <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              <div className="bg-card/50 backdrop-blur-sm border border-primary/20 rounded-2xl p-6 glow-blue">
-                <img
-                  src="https://videopartituras.com/wp-content/uploads/2025/01/IMG_5024-768x1017.jpg"
-                  alt="Depoimento de cliente"
-                  className="w-full rounded-lg"
-                />
-              </div>
-              <div className="bg-card/50 backdrop-blur-sm border border-primary/20 rounded-2xl p-6 glow-blue">
-                <img
-                  src="https://videopartituras.com/wp-content/uploads/2025/01/IMG_5026-768x977.jpg"
-                  alt="Depoimento de cliente"
-                  className="w-full rounded-lg"
-                />
-              </div>
-            </div>
           </section>
 
           {/* Features Section */}
@@ -124,23 +97,6 @@ const Index = () => {
                 description="Não gostou? Devolvemos seu dinheiro!"
               />
             </div>
-          </section>
-
-          {/* Benefits Section */}
-          <section className="mb-20 bg-card/30 backdrop-blur-sm border border-primary/20 rounded-3xl p-8 md:p-12 glow-blue">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-8 font-display">
-              Chega de <span className="text-primary glow-text-blue">partituras impressas</span> e playbacks separados!
-            </h2>
-
-            <p className="text-center text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              <span className="font-bold text-foreground">Todo material na palma da mão</span> - é só dar play e sair tocando!
-            </p>
-
-            <a href="#preco">
-              <CTAButton size="lg">
-                Quero Ter Acesso Agora!
-              </CTAButton>
-            </a>
           </section>
 
           {/* Video Examples Section */}
@@ -175,6 +131,50 @@ const Index = () => {
                 esperando por você!
               </p>
             </div>
+          </section>
+
+          {/* Social Proof */}
+          <section id="depoimentos" className="mb-20 scroll-mt-32">
+            <h2 className="text-3xl md:text-5xl font-bold text-center text-foreground mb-4 font-display">
+              O que nossos <span className="text-primary glow-text-blue">clientes dizem</span>
+            </h2>
+            <p className="text-center text-muted-foreground mb-12 text-lg">
+              <span className="font-bold text-foreground">Centenas de saxofonistas</span> já transformaram suas apresentações
+            </p>
+            
+            <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+              <div className="bg-card/50 backdrop-blur-sm border border-primary/20 rounded-2xl p-6 glow-blue">
+                <img
+                  src="https://videopartituras.com/wp-content/uploads/2025/01/IMG_5024-768x1017.jpg"
+                  alt="Depoimento de cliente"
+                  className="w-full rounded-lg"
+                />
+              </div>
+              <div className="bg-card/50 backdrop-blur-sm border border-primary/20 rounded-2xl p-6 glow-blue">
+                <img
+                  src="https://videopartituras.com/wp-content/uploads/2025/01/IMG_5026-768x977.jpg"
+                  alt="Depoimento de cliente"
+                  className="w-full rounded-lg"
+                />
+              </div>
+            </div>
+          </section>
+
+          {/* Benefits Section */}
+          <section className="mb-20 bg-card/30 backdrop-blur-sm border border-primary/20 rounded-3xl p-8 md:p-12 glow-blue">
+            <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-8 font-display">
+              Chega de <span className="text-primary glow-text-blue">partituras impressas</span> e playbacks separados!
+            </h2>
+
+            <p className="text-center text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
+              <span className="font-bold text-foreground">Todo material na palma da mão</span> - é só dar play e sair tocando!
+            </p>
+
+            <a href="#preco">
+              <CTAButton size="lg">
+                Quero Ter Acesso Agora!
+              </CTAButton>
+            </a>
           </section>
 
           {/* Guarantee Section */}
