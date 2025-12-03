@@ -59,15 +59,6 @@ const Index = () => {
             </div>
           </section>
 
-          {/* CTA to Pricing */}
-          <section className="text-center mb-12">
-            <a href="#preco">
-              <CTAButton size="xl">
-                Garantir Agora
-              </CTAButton>
-            </a>
-          </section>
-
           {/* Features Section */}
           <section className="mb-20">
             <h2 className="text-3xl md:text-5xl font-bold text-center text-foreground mb-2 font-display">
@@ -103,12 +94,6 @@ const Index = () => {
             <p className="text-center text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
               <span className="font-bold text-foreground">Todo material na palma da mão</span> - é só dar play e sair tocando!
             </p>
-
-            <a href="#preco">
-              <CTAButton size="lg">
-                Quero Ter Acesso Agora!
-              </CTAButton>
-            </a>
           </section>
 
           {/* Video Examples Section */}
@@ -147,10 +132,6 @@ const Index = () => {
                   description="Rock clássico! Note a qualidade premium dos playbacks e partituras."
                 />
               </div>
-            </div>
-
-            <div className="text-center mt-8">
-              {/* Espaço reduzido conforme solicitado */}
             </div>
           </section>
 
@@ -248,9 +229,11 @@ const Index = () => {
                 </div>
               </div>
 
-              <CTAButton href="https://pay.kirvano.com/bfaf5f55-ad26-4215-a683-53327f20c71b" size="xl">
-                Quero Aproveitar Esta Oferta!
-              </CTAButton>
+              <div className="text-center">
+                <CTAButton href="https://pay.kirvano.com/bfaf5f55-ad26-4215-a683-53327f20c71b" size="xl">
+                  Quero Aproveitar Esta Oferta!
+                </CTAButton>
+              </div>
 
               <p className="text-sm text-center text-muted-foreground mt-4">
                 ✅ ACESSO IMEDIATO APÓS PAGAMENTO CONFIRMADO!
