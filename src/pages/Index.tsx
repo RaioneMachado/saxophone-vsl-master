@@ -42,7 +42,7 @@ const Index = () => {
             </h1>
             
             <p className="text-lg md:text-xl text-accent mb-4 max-w-3xl mx-auto">
-              <span className="font-bold">ÚLTIMO DIA DE PROMOÇÃO! APROVEITE...</span> {" "}
+              <span className="font-bold">ÚLTIMO DIA DE PROMOÇÃO! COMPRANDO HOJE, VOCÊ RECEBERÁ MAIS 200 PARTITURAS EM VÍDEOS DE BRINDE...</span> {" "}
               <span className="font-bold">qualidade premium!</span>
             </p>
           </section>
@@ -210,6 +210,10 @@ const Index = () => {
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-accent flex-shrink-0" />
                   <p className="text-foreground">Mais de 200 vídeo partituras premium</p>
+                </div>
+                <div className="flex items-center gap-3">
+                  <CheckCircle className="w-5 h-5 text-accent flex-shrink-0" />
+                  <p className="text-foreground">Comprando hoje você receberá mais 200 de brindes em vídeos partituras</p>
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-accent flex-shrink-0" />
