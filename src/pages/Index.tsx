@@ -38,7 +38,7 @@ const Index = () => {
             
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-4 leading-tight font-display">
               O <span className="text-primary glow-text-blue">maior material</span> de{" "}
-              <span className="text-primary glow-text-blue">VÍDEO PARTITURAS</span> para violino!
+              <span className="text-primary glow-text-blue">VÍDEO PARTITURAS</span> para saxofone!
             </h1>
             
             <p className="text-lg md:text-xl text-accent mb-4 max-w-3xl mx-auto">
@@ -105,31 +105,31 @@ const Index = () => {
             <div className="space-y-16">
               <div className="text-center">
                 <h3 className="text-2xl md:text-3xl font-bold text-primary glow-text-blue mb-4 font-display">
-                  Canon in D - Pachelbel
+                  Menina Veneno - Ritchie
                 </h3>
                 <VideoSection
                   videoId="ho6kZjBszIU"
-                  description="Clássico para violino! Temos também música erudita, popular, folclórica e muito mais!"
+                  description="Clássico solo de sax! Temos também pop, rock, MPB, bossa e muito mais!"
                 />
               </div>
 
               <div className="text-center">
                 <h3 className="text-2xl md:text-3xl font-bold text-primary glow-text-blue mb-4 font-display">
-                  Por una Cabeza - Carlos Gardel
+                  Vivir Sin Aire - Maná
                 </h3>
                 <VideoSection
                   videoId="_eBWSJa0Mog"
-                  description="Clássico tango! Perfeito para apresentações elegantes e emocionantes."
+                  description="Hits latinos! Sucesso da banda Maná, perfeito para emocionar."
                 />
               </div>
 
               <div className="text-center">
                 <h3 className="text-2xl md:text-3xl font-bold text-primary glow-text-blue mb-4 font-display">
-                  Vivaldi - Spring
+                  Your Love - The Outfield
                 </h3>
                 <VideoSection
                   videoId="uYG7VA-kxMI"
-                  description="Música erudita! Note a qualidade premium dos playbacks e partituras."
+                  description="Rock clássico! Note a qualidade premium dos playbacks e partituras."
                 />
               </div>
             </div>
@@ -141,7 +141,7 @@ const Index = () => {
               O que nossos <span className="text-primary glow-text-blue">clientes dizem</span>
             </h2>
             <p className="text-center text-muted-foreground mb-12 text-lg">
-              <span className="font-bold text-foreground">Centenas de violinistas</span> já transformaram suas apresentações
+              <span className="font-bold text-foreground">Centenas de saxofonistas</span> já transformaram suas apresentações
             </p>
             
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
