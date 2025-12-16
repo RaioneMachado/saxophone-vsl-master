@@ -53,9 +53,15 @@ const Index = () => {
               <h3 className="text-2xl md:text-3xl font-bold text-primary glow-text-blue mb-4 font-display">
                 Veja como funciona!
               </h3>
-              <VideoSection
-                videoId="qMOaQcg3RRU"
-              />
+              {/* Player Panda Video */}
+              <div className="aspect-video rounded-xl overflow-hidden shadow-2xl border-4 border-primary/30">
+                <iframe
+                  src="https://player-vz-03224ce4-c55.tv.pandavideo.com.br/embed/?v=82ec4241-94ee-4555-85e3-221f43346f2b"
+                  className="w-full h-full"
+                  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+                  allowFullScreen
+                />
+              </div>
             </div>
           </section>
 
