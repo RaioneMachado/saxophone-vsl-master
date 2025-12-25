@@ -32,18 +32,18 @@ const Index = () => {
             <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/30 rounded-full px-4 py-2 mb-4">
               <div className="w-2 h-2 bg-accent rounded-full animate-pulse" />
               <span className="text-sm text-foreground font-semibold">
-                🟢 97 músicos estão sendo redirecionados!
+                🟢 97 musicians are being redirected right now!
               </span>
             </div>
-            
+
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-4 leading-tight font-display">
-              O <span className="text-primary glow-text-blue">maior material</span> de{" "}
-              <span className="text-primary glow-text-blue">VÍDEO PARTITURAS</span> para saxofone!
+              The <span className="text-primary glow-text-blue">largest collection</span> of{" "}
+              <span className="text-primary glow-text-blue">VIDEO SHEET MUSIC</span> for saxophone!
             </h1>
-            
+
             <p className="text-lg md:text-xl text-accent mb-4 max-w-3xl mx-auto">
-              <span className="font-bold">ÚLTIMO DIA DE PROMOÇÃO! COMPRANDO HOJE, VOCÊ RECEBERÁ MAIS 200 PARTITURAS EM VÍDEOS DE BRINDE...</span> {" "}
-              <span className="font-bold">qualidade premium!</span>
+              <span className="font-bold">LAST DAY OF THE PROMOTION! BUYING TODAY, YOU'LL RECEIVE AN EXTRA 200 VIDEO SHEET MUSIC AS A BONUS...</span>{" "}
+              <span className="font-bold">premium quality!</span>
             </p>
           </section>
 
@@ -51,7 +51,7 @@ const Index = () => {
           <section className="mb-16 flex justify-center">
             <div className="w-full max-w-4xl text-center">
               <h3 className="text-2xl md:text-3xl font-bold text-primary glow-text-blue mb-4 font-display">
-                Veja como funciona!
+                See how it works!
               </h3>
               {/* Player Panda Video */}
               <div className="aspect-video rounded-xl overflow-hidden shadow-2xl border-4 border-primary/30">
@@ -68,25 +68,25 @@ const Index = () => {
           {/* Features Section */}
           <section className="mb-20">
             <h2 className="text-3xl md:text-5xl font-bold text-center text-foreground mb-2 font-display">
-              <span className="text-primary glow-text-blue">Qualidade premium</span> que você{" "}
-              <span className="font-bold">não encontra no YouTube</span>
+              <span className="text-primary glow-text-blue">Premium quality</span> that you{" "}
+              <span className="font-bold">won't find on YouTube</span>
             </h2>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6 max-w-4xl mx-auto mt-8">
               <FeatureCard
                 icon={Music}
-                title="Mais de 200 temas"
-                description="Acervo completo com músicas de diversos estilos."
+                title="Over 200 songs"
+                description="Complete library with music from various styles."
               />
               <FeatureCard
                 icon={TrendingUp}
-                title="Plataforma Exclusiva"
-                description="Material organizado em pastas. Economize tempo!"
+                title="Exclusive Platform"
+                description="Material organized in folders. Save time!"
               />
               <FeatureCard
                 icon={Download}
-                title="Download Ilimitado"
-                description="Vídeos em mp4 de alta qualidade. Use sem internet!"
+                title="Unlimited Download"
+                description="High-quality mp4 videos. Use without internet!"
               />
             </div>
           </section>
@@ -94,18 +94,18 @@ const Index = () => {
           {/* Benefits Section */}
           <section className="mb-20 bg-card/30 backdrop-blur-sm border border-primary/20 rounded-3xl p-8 md:p-12 glow-blue">
             <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-8 font-display">
-              Chega de <span className="text-primary glow-text-blue">partituras impressas</span> e playbacks separados!
+              No more <span className="text-primary glow-text-blue">printed sheet music</span> and separate backing tracks!
             </h2>
 
             <p className="text-center text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              <span className="font-bold text-foreground">Todo material na palma da mão</span> - é só dar play e sair tocando!
+              <span className="font-bold text-foreground">All the material in the palm of your hand</span> - just press play and start playing!
             </p>
           </section>
 
           {/* Video Examples Section */}
           <section className="mb-20">
             <h2 className="text-3xl md:text-5xl font-bold text-center text-foreground mb-12 font-display">
-              Veja alguns <span className="text-primary glow-text-blue">exemplos</span>
+              See some <span className="text-primary glow-text-blue">examples</span>
             </h2>
 
             <div className="space-y-16">
@@ -115,7 +115,7 @@ const Index = () => {
                 </h3>
                 <VideoSection
                   videoId="ho6kZjBszIU"
-                  description="Clássico solo de sax! Temos também pop, rock, MPB, bossa e muito mais!"
+                  description="Classic sax solo! We also have pop, rock, MPB, bossa and much more!"
                 />
               </div>
 
@@ -125,7 +125,7 @@ const Index = () => {
                 </h3>
                 <VideoSection
                   videoId="_eBWSJa0Mog"
-                  description="Hits latinos! Sucesso da banda Maná, perfeito para emocionar."
+                  description="Latin hits! Hit song by the band Maná, perfect for emotional performances."
                 />
               </div>
 
@@ -135,33 +135,33 @@ const Index = () => {
                 </h3>
                 <VideoSection
                   videoId="uYG7VA-kxMI"
-                  description="Rock clássico! Note a qualidade premium dos playbacks e partituras."
+                  description="Classic rock! Notice the premium quality of the backing tracks and sheet music."
                 />
               </div>
             </div>
           </section>
 
           {/* Social Proof */}
-          <section id="depoimentos" className="mb-20 scroll-mt-32">
+          <section id="testimonials" className="mb-20 scroll-mt-32">
             <h2 className="text-3xl md:text-5xl font-bold text-center text-foreground mb-4 font-display">
-              O que nossos <span className="text-primary glow-text-blue">clientes dizem</span>
+              What our <span className="text-primary glow-text-blue">customers say</span>
             </h2>
             <p className="text-center text-muted-foreground mb-12 text-lg">
-              <span className="font-bold text-foreground">Centenas de saxofonistas</span> já transformaram suas apresentações
+              <span className="font-bold text-foreground">Hundreds of saxophonists</span> have already transformed their performances
             </p>
-            
+
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               <div className="bg-card/50 backdrop-blur-sm border border-primary/20 rounded-2xl p-6 glow-blue">
                 <img
                   src="https://videopartituras.com/wp-content/uploads/2025/01/IMG_5024-768x1017.jpg"
-                  alt="Depoimento de cliente"
+                  alt="Customer testimonial"
                   className="w-full rounded-lg"
                 />
               </div>
               <div className="bg-card/50 backdrop-blur-sm border border-primary/20 rounded-2xl p-6 glow-blue">
                 <img
                   src="https://videopartituras.com/wp-content/uploads/2025/01/IMG_5026-768x977.jpg"
-                  alt="Depoimento de cliente"
+                  alt="Customer testimonial"
                   className="w-full rounded-lg"
                 />
               </div>
@@ -175,21 +175,21 @@ const Index = () => {
                 <Shield className="w-16 h-16 text-accent" />
               </div>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 font-display">
-                <span className="text-accent">100% Seguro</span> com 7 Dias de Garantia!
+                <span className="text-accent">100% Secure</span> with a 7-Day Guarantee!
               </h2>
               <p className="text-lg text-muted-foreground max-w-3xl leading-relaxed">
-                <span className="font-bold text-foreground">Somos uma equipe de músicos</span> trabalhando com seriedade!{" "}
-                <span className="font-bold text-foreground">7 dias de garantia:</span> não gostou? Devolvemos seu dinheiro!
+                <span className="font-bold text-foreground">We are a team of musicians</span> working with seriousness!{" "}
+                <span className="font-bold text-foreground">7-day guarantee:</span> not satisfied? We refund your money!
               </p>
             </div>
           </section>
 
           {/* Pricing Section */}
-          <section id="preco" className="mb-20 scroll-mt-24 md:scroll-mt-32">
+          <section id="price" className="mb-20 scroll-mt-24 md:scroll-mt-32">
             <div className="text-center mb-8 animate-pulse">
               <div className="inline-block bg-gradient-to-r from-accent to-accent/80 rounded-2xl p-4 mb-4 glow-green shadow-2xl">
                 <p className="text-2xl md:text-3xl text-accent-foreground font-black mb-0 tracking-tight">
-                  ⚡ SOMENTE HOJE VOCÊ TERÁ ACESSO AO DESCONTO! ⚡
+                  ⚡ ONLY TODAY YOU'LL HAVE ACCESS TO THE DISCOUNT! ⚡
                 </p>
               </div>
             </div>
@@ -197,56 +197,56 @@ const Index = () => {
             <div className="max-w-2xl mx-auto bg-gradient-to-br from-accent/20 via-primary/20 to-accent/10 backdrop-blur-sm border-4 border-accent/50 rounded-3xl p-8 md:p-12 glow-green shadow-2xl animate-scale-in">
               <div className="text-center mb-8">
                 <p className="text-red-500 text-lg mb-2 line-through">
-                  de R$ 197<span className="text-sm">,00</span>
+                  from $197<span className="text-sm">.00</span>
                 </p>
                 <div className="relative inline-block">
                   <p className="text-7xl md:text-8xl font-black text-accent glow-text-green mb-4 font-display animate-pulse">
-                    R$ 67<span className="text-4xl md:text-5xl">,00</span>
+                    $67<span className="text-4xl md:text-5xl">.00</span>
                   </p>
                   <div className="absolute -top-4 -right-4 bg-primary text-primary-foreground text-sm font-bold px-3 py-1 rounded-full rotate-12 animate-bounce">
                     60% OFF
                   </div>
                 </div>
                 <p className="text-sm text-muted-foreground uppercase tracking-wider">
-                  Pagamento único • Acesso vitalício
+                  One-time payment • Lifetime access
                 </p>
               </div>
 
               <div className="space-y-4 mb-8">
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-accent flex-shrink-0" />
-                  <p className="text-foreground">Mais de 200 vídeo partituras premium</p>
+                  <p className="text-foreground">Over 200 premium video sheet music</p>
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-accent flex-shrink-0" />
-                  <p className="text-foreground">Comprando hoje você receberá mais 200 de brindes em vídeos partituras</p>
+                  <p className="text-foreground">Buying today you'll receive an extra 200 video sheet music as bonuses</p>
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-accent flex-shrink-0" />
-                  <p className="text-foreground">Download ilimitado em alta qualidade</p>
+                  <p className="text-foreground">Unlimited download in high quality</p>
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-accent flex-shrink-0" />
-                  <p className="text-foreground">Acesso vitalício ao material</p>
+                  <p className="text-foreground">Lifetime access to the material</p>
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-accent flex-shrink-0" />
-                  <p className="text-foreground">Garantia de 7 dias</p>
+                  <p className="text-foreground">7-day guarantee</p>
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-accent flex-shrink-0" />
-                  <p className="text-foreground">Suporte via WhatsApp</p>
+                  <p className="text-foreground">Support via WhatsApp</p>
                 </div>
               </div>
 
               <div className="text-center">
                 <CTAButton href="https://pay.kirvano.com/768375cd-bfba-4d2d-b59d-c89dc97af553" size="xl">
-                  Clique Aqui e Aproveite a Oferta!
+                  Click Here and Take Advantage of the Offer!
                 </CTAButton>
               </div>
 
               <p className="text-sm text-center text-muted-foreground mt-4">
-                ✅ ACESSO IMEDIATO APÓS PAGAMENTO CONFIRMADO!
+                ✅ IMMEDIATE ACCESS AFTER PAYMENT CONFIRMATION!
               </p>
             </div>
           </section>
@@ -254,40 +254,39 @@ const Index = () => {
           {/* FAQ Section */}
           <section className="mb-20">
             <h2 className="text-3xl md:text-5xl font-bold text-center text-foreground mb-12 font-display">
-              Perguntas <span className="text-primary glow-text-blue">Frequentes</span>
+              Frequently <span className="text-primary glow-text-blue">Asked Questions</span>
             </h2>
 
             <div className="max-w-3xl mx-auto bg-card/30 backdrop-blur-sm border border-primary/20 rounded-2xl p-6 md:p-8">
               <Accordion type="single" collapsible className="space-y-4">
                 <FAQItem
                   value="item-1"
-                  question="1) Como vou receber as vídeo partituras?"
-                  answer="Você vai receber o acesso à plataforma no e-mail inserido no ato da compra."
+                  question="1) How will I receive the video sheet music?"
+                  answer="You will receive access to the platform at the email provided during purchase."
                 />
                 <FAQItem
                   value="item-2"
-                  question="2) Posso baixar as vídeo partituras?"
-                  answer="Sim. Você pode baixar todas as vídeo partituras no seu celular, computador ou tablet. Podendo usar sem acesso à internet."
+                  question="2) Can I download the video sheet music?"
+                  answer="Yes. You can download all video sheet music to your phone, computer, or tablet. You can use it without internet access."
                 />
                 <FAQItem
                   value="item-3"
-                  question="3) Após a compra, em quanto tempo recebo o acesso ao material?"
-                  answer="Após confirmado o pagamento o acesso é imediato."
+                  question="3) After purchase, how long until I get access to the material?"
+                  answer="Access is immediate after payment is confirmed."
                 />
                 <FAQItem
                   value="item-4"
-                  question="4) Posso inserir meus dados sem nenhum problema?"
-                  answer="Sim, a plataforma de pagamento é 100% SEGURA e criptografada!"
+                  question="4) Is it safe to enter my information?"
+                  answer="Yes, the payment platform is 100% SECURE and encrypted!"
                 />
                 <FAQItem
                   value="item-5"
-                  question="5) Em qual local ficam localizadas as vídeo partituras?"
-                  answer="No Google Drive, com pastas organizadas pelo nome de cada música, onde você poderá baixá-las."
+                  question="5) Where are the video sheet music located?"
+                  answer="On Google Drive, with folders organized by each song's name, where you can download them."
                 />
               </Accordion>
             </div>
           </section>
-
         </div>
       </div>
 
@@ -295,7 +294,7 @@ const Index = () => {
       <footer className="relative z-10 border-t border-primary/20 py-8 bg-card/30 backdrop-blur-sm">
         <div className="container mx-auto px-4 text-center">
           <p className="text-muted-foreground">
-            © 2025 Vídeo Partituras Premium. Todos os direitos reservados.
+            © 2025 Premium Video Sheet Music. All rights reserved.
           </p>
         </div>
       </footer>
