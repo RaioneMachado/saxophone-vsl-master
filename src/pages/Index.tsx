@@ -1,4 +1,5 @@
 import { VideoSection } from "@/components/VideoSection";
+import { HeroVideo } from "@/components/HeroVideo";
 import { FeatureCard } from "@/components/FeatureCard";
 import { CTAButton } from "@/components/CTAButton";
 import { FAQItem } from "@/components/FAQItem";
@@ -57,16 +58,7 @@ const Index = () => {
               <h3 className="text-2xl md:text-3xl font-bold text-primary glow-text-blue mb-4 font-display">
                 Veja como funciona!
               </h3>
-              <div className="aspect-video rounded-xl overflow-hidden shadow-2xl border-4 border-primary/30">
-                <iframe
-                  src="https://www.youtube.com/embed/qMOaQcg3RRU?rel=0&modestbranding=1"
-                  className="w-full h-full"
-                  title="Vídeo Partituras Premium"
-                  allow="accelerometer; autoplay; encrypted-media; picture-in-picture"
-                  allowFullScreen
-                  loading="lazy"
-                />
-              </div>
+              <HeroVideo videoId="qMOaQcg3RRU" />
             </div>
           </section>
 
