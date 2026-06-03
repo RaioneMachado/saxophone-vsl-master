@@ -1,6 +1,6 @@
 interface VideoSectionProps {
   videoId: string;
-  title: string;
+  title?: string;
   description: string;
 }
 
@@ -8,9 +8,11 @@ export const VideoSection = ({ videoId, title, description }: VideoSectionProps)
   return (
     <div className="w-full max-w-4xl mx-auto animate-fade-in">
       <div className="mb-6">
-        <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-3 font-display">
-          {title}
-        </h3>
+        {title && (
+          <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-3 font-display">
+            {title}
+          </h3>
+        )}
         <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
           {description}
         </p>
