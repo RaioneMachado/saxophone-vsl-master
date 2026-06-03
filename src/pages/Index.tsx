@@ -79,14 +79,14 @@ const Index = () => {
       {/* LIGHT - Comparação Impressas vs Vídeo */}
       <section className="section-light relative z-10 py-24 md:py-32">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-5xl font-bold text-center mb-3 font-display">
+          <h2 className="text-3xl md:text-5xl font-bold text-center mb-4 font-display">
             <span className="text-primary">Vídeo partituras</span> vs <span className="line-through opacity-50">impressas</span>
           </h2>
-          <p className="text-center text-dark-muted text-lg max-w-2xl mx-auto mb-12">
+          <p className="text-center text-dark-muted text-lg max-w-2xl mx-auto mb-16">
             Compare e veja a diferença que vai transformar seus estudos.
           </p>
 
-          <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <div className="bg-white/70 border-2 border-red-200 rounded-2xl p-8 shadow-lg">
               <div className="flex items-center gap-3 mb-6">
                 <div className="bg-red-100 p-3 rounded-full">
@@ -142,12 +142,12 @@ const Index = () => {
       {/* DARK - Features */}
       <div className="relative z-10 bg-background py-24 md:py-32">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-5xl font-bold text-center text-foreground mb-10 font-display">
+          <h2 className="text-3xl md:text-5xl font-bold text-center text-foreground mb-16 font-display">
             <span className="text-primary glow-text-blue">Qualidade premium</span> que você{" "}
             <span className="font-bold">não encontra no YouTube</span>
           </h2>
 
-          <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <FeatureCard icon={Music} title="Mais de 200 temas" description="Acervo completo com músicas de diversos estilos." />
             <FeatureCard icon={TrendingUp} title="Plataforma Exclusiva" description="Material organizado em pastas. Economize tempo!" />
             <FeatureCard icon={Download} title="Download Ilimitado" description="Vídeos em mp4 de alta qualidade. Use offline!" />
@@ -159,10 +159,10 @@ const Index = () => {
       {/* LIGHT - Para quem é */}
       <section className="section-light relative z-10 py-24 md:py-32">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-5xl font-bold text-center mb-12 font-display">
+          <h2 className="text-3xl md:text-5xl font-bold text-center mb-16 font-display">
             Feito para <span className="text-primary">você</span> que…
           </h2>
-          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {[
               { icon: Music, title: "Está começando agora", desc: "Aprenda do zero acompanhando as notas no vídeo." },
               { icon: TrendingUp, title: "Quer evoluir mais rápido", desc: "Estude com playbacks profissionais e ganhe musicalidade." },
@@ -183,11 +183,11 @@ const Index = () => {
       {/* DARK - Video Examples */}
       <div className="relative z-10 bg-background py-24 md:py-32">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-5xl font-bold text-center text-foreground mb-12 font-display">
+          <h2 className="text-3xl md:text-5xl font-bold text-center text-foreground mb-16 font-display">
             Veja alguns <span className="text-primary glow-text-blue">exemplos</span>
           </h2>
 
-          <div className="space-y-16">
+          <div className="space-y-20 md:space-y-24">
             <div className="text-center">
               <h3 className="text-2xl md:text-3xl font-bold text-primary glow-text-blue mb-4 font-display">
                 Menina Veneno - Ritchie
@@ -213,10 +213,10 @@ const Index = () => {
       {/* LIGHT - Antes x Depois */}
       <section className="section-light relative z-10 py-24 md:py-32">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-5xl font-bold text-center mb-12 font-display">
+          <h2 className="text-3xl md:text-5xl font-bold text-center mb-16 font-display">
             A sua <span className="text-primary">transformação</span> começa hoje
           </h2>
-          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-10 max-w-5xl mx-auto">
             <div className="bg-white/70 border-2 border-red-200 rounded-2xl p-8">
               <p className="text-sm font-bold text-red-500 uppercase tracking-wider mb-4">Antes</p>
               <ul className="space-y-3 text-dark-muted">
@@ -279,7 +279,7 @@ const Index = () => {
       {/* LIGHT - Bônus */}
       <section className="section-light relative z-10 py-24 md:py-32">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
+          <div className="text-center mb-16">
             <div className="inline-flex items-center gap-2 bg-accent/20 border border-accent rounded-full px-4 py-2 mb-4">
               <Gift className="w-4 h-4 text-accent" />
               <span className="text-sm font-bold text-accent">BÔNUS EXCLUSIVOS</span>
@@ -288,7 +288,7 @@ const Index = () => {
               Comprando hoje você <span className="text-primary">ainda leva</span>:
             </h2>
           </div>
-          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {[
               { icon: Music, title: "+200 vídeo partituras de brinde", value: "R$ 197" },
               { icon: Headphones, title: "Playbacks profissionais inclusos", value: "R$ 97" },
