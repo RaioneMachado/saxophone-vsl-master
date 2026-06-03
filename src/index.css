@@ -79,6 +79,17 @@ All colors MUST be HSL.
   .bg-gradient-radial {
     background: radial-gradient(circle at 50% 50%, hsl(199 89% 48% / 0.15), transparent 70%);
   }
+
+  .section-light {
+    background: linear-gradient(180deg, hsl(210 40% 96%) 0%, hsl(210 30% 92%) 100%);
+    color: hsl(220 30% 8%);
+  }
+  .section-light h2, .section-light h3, .section-light p, .section-light span {
+    color: inherit;
+  }
+  .text-dark-muted {
+    color: hsl(220 15% 35%);
+  }
   
   .animate-pulse-glow {
     animation: pulse-glow 3s ease-in-out infinite;
