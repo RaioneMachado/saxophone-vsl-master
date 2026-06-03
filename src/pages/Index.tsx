@@ -77,7 +77,7 @@ const Index = () => {
       </div>
 
       {/* LIGHT - Comparação Impressas vs Vídeo */}
-      <section className="section-light relative z-10 py-20">
+      <section className="section-light relative z-10 py-24 md:py-32">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-5xl font-bold text-center mb-3 font-display">
             <span className="text-primary">Vídeo partituras</span> vs <span className="line-through opacity-50">impressas</span>
@@ -140,7 +140,7 @@ const Index = () => {
       </section>
 
       {/* DARK - Features */}
-      <div className="relative z-10 bg-background py-20">
+      <div className="relative z-10 bg-background py-24 md:py-32">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-5xl font-bold text-center text-foreground mb-10 font-display">
             <span className="text-primary glow-text-blue">Qualidade premium</span> que você{" "}
@@ -157,7 +157,7 @@ const Index = () => {
       </div>
 
       {/* LIGHT - Para quem é */}
-      <section className="section-light relative z-10 py-20">
+      <section className="section-light relative z-10 py-24 md:py-32">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-5xl font-bold text-center mb-12 font-display">
             Feito para <span className="text-primary">você</span> que…
@@ -181,7 +181,7 @@ const Index = () => {
       </section>
 
       {/* DARK - Video Examples */}
-      <div className="relative z-10 bg-background py-20">
+      <div className="relative z-10 bg-background py-24 md:py-32">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-5xl font-bold text-center text-foreground mb-12 font-display">
             Veja alguns <span className="text-primary glow-text-blue">exemplos</span>
@@ -211,7 +211,7 @@ const Index = () => {
       </div>
 
       {/* LIGHT - Antes x Depois */}
-      <section className="section-light relative z-10 py-20">
+      <section className="section-light relative z-10 py-24 md:py-32">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-5xl font-bold text-center mb-12 font-display">
             A sua <span className="text-primary">transformação</span> começa hoje
@@ -254,7 +254,7 @@ const Index = () => {
       </section>
 
       {/* DARK - Depoimentos */}
-      <div className="relative z-10 bg-background py-20">
+      <div className="relative z-10 bg-background py-24 md:py-32">
         <div className="container mx-auto px-4">
           <section id="depoimentos" className="scroll-mt-32">
             <h2 className="text-3xl md:text-5xl font-bold text-center text-foreground mb-4 font-display">
@@ -277,7 +277,7 @@ const Index = () => {
       </div>
 
       {/* LIGHT - Bônus */}
-      <section className="section-light relative z-10 py-20">
+      <section className="section-light relative z-10 py-24 md:py-32">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <div className="inline-flex items-center gap-2 bg-accent/20 border border-accent rounded-full px-4 py-2 mb-4">
@@ -311,7 +311,7 @@ const Index = () => {
       </section>
 
       {/* DARK - Garantia + Pricing + FAQ */}
-      <div className="relative z-10 bg-background py-20">
+      <div className="relative z-10 bg-background py-24 md:py-32">
         <div className="container mx-auto px-4">
           <section className="mb-20 bg-card/50 backdrop-blur-sm border border-accent/30 rounded-3xl p-8 md:p-12 glow-green">
             <div className="flex flex-col items-center text-center">
